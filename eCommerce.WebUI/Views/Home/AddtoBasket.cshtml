@@ -1,0 +1,35 @@
+﻿@model eCommerce.Models.BasketItem
+
+@{
+    ViewBag.Title = "AddtoBasket";
+}
+
+<h2>AddtoBasket</h2>
+
+<div>
+    <h4>BasketItem</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Product.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Product.Description)
+        </dd>
+
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @*@Html.ActionLink("Edit", "Edit", new { id = Model.BasketItemId })*@ |
+    @Html.ActionLink("Back to List", "Index")
+</p>

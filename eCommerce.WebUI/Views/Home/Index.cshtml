@@ -1,0 +1,33 @@
+﻿@model IEnumerable<eCommerce.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+   
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @*@Html.DisplayFor(modelItem => item.ImageUrl)*@
+
+            <img style="width:15%" src="~/Images/@item.ImageUrl" alt="@item.Description"  />
+
+        </td>
+        <td>
+            @Html.ActionLink(item.Description, "Details", new { id = item.ProductID })
+           
+        </td>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+     </tr>
+}
+
+</table>

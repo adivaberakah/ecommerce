@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.Contracts", "eCommerce.Contracts\eCommerce.Contracts.csproj", "{D0770BCB-D7AE-4E2D-9FB0-FA28D5EABB39}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.WebUI", "eCommerce.WebUI\eCommerce.WebUI.csproj", "{FE13288C-DD2B-446F-976D-9D49DFF2C703}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.Service", "eCommerce.Service\eCommerce.Service.csproj", "{F83E71EE-F82A-4446-8BE5-3EBCBF64871E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eCommerce.WebApi", "eCommerce.WebApi\eCommerce.WebApi.csproj", "{B1BB78C5-DBA8-4E19-AB8D-FCFBEB6BBB05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{F83E71EE-F82A-4446-8BE5-3EBCBF64871E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F83E71EE-F82A-4446-8BE5-3EBCBF64871E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F83E71EE-F82A-4446-8BE5-3EBCBF64871E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1BB78C5-DBA8-4E19-AB8D-FCFBEB6BBB05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BB78C5-DBA8-4E19-AB8D-FCFBEB6BBB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BB78C5-DBA8-4E19-AB8D-FCFBEB6BBB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BB78C5-DBA8-4E19-AB8D-FCFBEB6BBB05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
